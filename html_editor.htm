@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>First html code</title>
+
+<style>
+	body {
+/*		background-image: url('background.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover*/
+	}
+
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%
+		background-color: black;
+
+	}
+
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px
+	}
+
+	tr:nth-child(even){
+		background-color: #dddddd
+	}
+
+	#t01 th {
+		background-color: black;
+		color: white;
+	}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body style="background-color: white">
+
+<h1 >This is a heading</h1>
+
+<h2 style="font-style: italic; font-family: sans-serif; color: blue; text-align: center; font-size: 200%">This is a heading</h2>
+<h3 >This is a heading</h3>
+<p>This is a paragraph</p>
+
+
+<p><a href="#p1">Jump to Poem 1</a></p>
+<p><a href="#p2">Jump to Poem 2</a></p>
+
+<p>This is a paragraph <br> with a line break</p>
+
+
+<a href="https://youtube.com"; target="_blank">This is a link</a>
+<p><a href="mailto:foysalxahmed@gmail.com" title="foysalxahmed">Send Email</a></p>
+
+<button onclick="document.location='facbook.com' ">Facebook</button>
+
+<!-- <img src="G:\WalpapeR\Avengers\thor.jpg" alt="Chris Hemsworth" width="200" height="180">
+ -->
+
+<img src="G:\WalpapeR\Avengers\thor.jpg" usemap="#thor" alt="Chris Hemsworth" style="width: 240px;height: 180px;">
+
+
+
+<h2 style= "font-style: italic; font-family: sans-serif; color: red; text-align: center; font-size: 200%" id="p1">Venus and Adonis</h2>
+
+<pre style="text-align: center;">
+	
+But, lo! <i>from forth a copse</i> that neighbours by,
+A breeding jennet, lusty, young, and proud,
+Adonis' trampling courser doth espy,
+<mark>And forth she rushes, snorts and neighs aloud;</mark>
+The strong-neck'd steed, being tied unto a tree,
+Breaketh his rein, and to her straight goes he.
+
+<strong>Imperiously</strong> he leaps, he neighs, <sub>he</sub> bounds,
+And now his woven girths he breaks asunder;
+The bearing <b>earth</b> with his hard hoof he wounds,
+Whose <sup>hollow</sup> womb resounds like <em>heaven's thunder</em>;
+The iron bit he crushes 'tween his teeth
+Controlling what he was <small>controlled</small> <del>with</del>.
+</pre>
+
+
+<h2 style="text-align: center" id="p2">Three Songs</h2>
+<pre style="text-align: center; font-family: sans-serif;">
+	Come unto these yellow sands,
+   And then take hands:
+Court'sied when you have, and kiss'd,
+   The wild waves whist--
+Foot it featly here and there;
+And, sweet sprites, the burthen bear.
+   Hark, hark!
+      Bow, wow,
+   The watch-dogs bark:
+      Bow, wow.
+Hark, hark! I hear
+The strain of strutting chanticleer
+Cry, Cock-a-diddle-dow!
+
+                  <i>from The Tempest</i>
+</pre>
+
+<p>Follwing is an address</p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+
+<p>Here is a blockquote</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+<p>The <abbr title="World Health organization">WHO</abbr> was found in 1948 </p>
+
+
+
+<p><img src="smiley.png" alt="Smiley Face"  style="float:left ;width: 40px; height: 40px">This image will float at right of the text</p>
+
+<p></p>
+
+
+
+
+
+
+<map name="thor">
+	<area shape="rect" coords="100,0,230,180" href="https://www.instagram.com/chrishemsworth/?hl=en">
+</map>
+
+
+
+<table style="width: 100%" id="t01">
+	<tr >
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th colspan="2">City</th>
+	</tr>
+
+	<tr>
+		<td>Fakrul</td>
+		<td>Abedin</td>
+		<td>Comilla</td>
+		<td>Chandpur</td>
+	</tr>
+	<tr>
+		<td>Kazi Rakib</td>
+		<td>Uddin</td>
+		<td>Comilla</td>
+		<td>Chittagong</td>
+	</tr>
+	<tr>
+		<td>Sharifur</td>
+		<td>Rahman</td>
+		<td>Chandpur</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Foysal</td>
+		<td>Ahmed</td>
+		<td>Sirajganj</td>
+		<td>Chandpur</td>
+	</tr>
+
+</table>
+
+<h3>This is the Rowspan example</h3>
+<table>
+	<caption>Contacts</caption>
+	<tr>
+		<th>Name</th>
+		<td>Mr. X</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Contact</th>
+		<td>01632188034</td>
+	</tr>
+	<tr>
+		<td >01521494800</td>
+	</tr>
+
+</table>
+
+<p>This is an unordered list</p>
+<ul style="list-style-type: circle">
+	<li>Cofee</li>
+	<li>Tea
+		<ul style="list-style-type: disc;">
+			<li>Green Tea</li>
+			<li>Black Tea</li>
+		</ul>
+	</li>
+	<li>Sugar</li>
+</ul>
+
+<p>This is an orderes list</p>
+<ol>
+	<li>Cofee</li>
+	<li>Tea</li>
+	<li>Sugar</li>
+</ol>
+
+<p>This is a list with description</p>
+
+<dl>
+	<dt>Coffee</dt>
+	<dd>- I love coffee</dd>
+	<dt>Sugar</dt>
+	<dd>I try to avoid sugar</dd>
+</dl>
+
+
+
+<h2 style="border: 2px solid tomato; text-align: center; font-style: italic; color: red;">End</h2>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
